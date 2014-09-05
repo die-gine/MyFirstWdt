@@ -2,9 +2,11 @@ package pageObject;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ContactPage extends AbstractPage {
-
+	
 	public ContactPage(WebDriver driver) {
 		super(driver);
 	}
@@ -21,4 +23,8 @@ public class ContactPage extends AbstractPage {
 		return new ContactResultPage(driver);
 		
 	}
+	public ContactPage fillFieldName(String name) {
+		driver.findElement(By.name("name_field")).sendKeys(name);
+		return new ContactPage(driver);
+	}								
 }

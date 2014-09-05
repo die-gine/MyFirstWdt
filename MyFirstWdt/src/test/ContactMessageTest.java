@@ -12,23 +12,15 @@ import pageObject.ContactResultPage;
 import pageObject.HomePage;
 
 
-public class ContactMessageTest {
-	WebDriver driver; 
-
+public class ContactMessageTest extends AbstractWebDriverTest {
+	
 	@Before
-	public void testSetup(){
-		driver = new FirefoxDriver();
-		
+	public void testSetUp(){
+		home.navigateToWebapp(); 
 	}
-	@After
-	public void testShutDown(){
-		driver.quit();
-		
-	}
+	
 	@Test
 	public void shouldSendContactMessage(){
-		HomePage home = new HomePage(driver);
-		home = home.navigateToWebapp(); 
 		ContactPage contact = home.clickOnContact();
 		ContactResultPage result = contact.fillFormWithData().submitForm(); 
 		
