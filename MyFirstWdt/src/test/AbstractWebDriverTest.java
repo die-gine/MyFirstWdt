@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import pageObject.HomePage;
+import util.PropertyManager;
 
 public class AbstractWebDriverTest {
 	//class for drivermanagement
@@ -13,8 +14,10 @@ public class AbstractWebDriverTest {
 	protected WebDriver driver; 
 	protected HomePage home;
 
+
 	@Before
 	public void setUp(){
+
 		driver = new FirefoxDriver();
 		home =  new HomePage(driver);
 	}

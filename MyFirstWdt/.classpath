@@ -5,5 +5,13 @@
 	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/selenium-2.42.2/selenium-java-2.42.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/selenium-2.42.2/selenium-java-2.42.2-srcs.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/selenium-server-standalone-2.42.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/cucumber-java-1.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/cucumber-junit-1.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rwild/Desktop/cucumber-core-1.1.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
